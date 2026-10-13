@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+# build outputs
+plugin/build/
+plugin/dist/
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.lib
+# never commit game files or extracted assets (Portal's sounds go to the game folder, from the player's own Portal)
+*.wav
+*.vpk
+*.vtf
